@@ -1,1 +1,22 @@
 # readings-career-track
+Quantity Trumps Quality
+I was so unprepared for the conclusion of the Quantity Trumps Quality that I did not realize that I had read the title backward until I was almost finished reading the article.  The author’s conclusion at first surprised me, and then I realized it should not have because I have experienced numerous examples of this concept.  I never learned to play the guitar by first waiting until I could form and strum a perfect chord before I started practicing.  Strumming imperfect chords dozens of times was practicing, and I would not have learned any other way.
+The most stunning thing to me personally is that I have been acting as though learning to write code well was somehow different than everything else I’ve ever learned.  I am far too concerned with making mistakes and writing ugly code that I’m often paralyzed into writing nothing at all for stints of time that are far too long.  While this is a face palm moment, it’s also very liberating.  I need to get busy right away writing copious amounts of ugly, nasty code so I can get to the gem at the bottom of the pile.
+
+Clean Code: Chapter 1
+	Writing clean code, what does it mean?  Why does it matter? How much does it matter?  Handling these questions in reverses order: First, it matters a lot.  In my mind it is literally the difference between a true professional and a rank amateur.  Second, it matters because it speaks volumes about you as a programmer, because the cost of messy code is very high and at some point can be virtually irreversible, and because at the end of the day a developer striving to write cleaner and cleaner code will find their more satisfying and rewarding.
+But, to the first question, what does it mean, or what does it look like?  Like this article asserts, it is far easier to recognize clean code than it is to write it.  He quoted some giants in the field who gave some excellent, useful descriptions of clean code, and they would be useful to refer to from time to time.  The best word I saw in this article, however, that is the overarching concept for all the question about clean code is caring. 
+If you care about writing clean code you will constantly be revisiting what it looks like, you will be open to feedback from who understand clean code, you will always practice TDD and you will not consider a project completed without it, and you will learn to have the “code-sense” this article spoke of until you have no tolerance at all for messy code.  You will care so much that you will constantly ask yourself, “How would this project be, if every code working on it was just like me?”
+
+
+
+
+TDD red-green-refactor
+	Heretofore I have engaged in the habit of writing my code just so that I can get “something to work”, and then worrying about my tests later as though tests were just something I need to do at some point.  This approach just seemed more intuitive to me, but I am seeing more and more where it has not served me well at all.
+First, I realize I really am putting the cart before the horse because writing tests to fit my existing code might be just helping me to accommodate bad code.  Second, it has made refactoring complicated, time consuming, and arbitrary rather than simple, efficient, and targeted.  Third, and most important, I know that my approach has prevented my code from being as clean as it could be, and writing clean code is important to me.
+Going forward I intend to begin with my tests.  I know it’s going to be awkward at first, but I also know in the end I will not regret it.
+
+Cycles of TDD
+	This article is helpful in assisting me with developing strong TDD skills that, once learned, I can replicate as a pattern every time I write code.  The notion of a cycle brings woodworking to mind, specifically sanding a piece of wood.  You start with a rough product that requires rough sandpaper, and as the wood surface becomes smoother you would use finer sandpaper.  Still, you might find that some areas on the wood are still rough, and so you need to go back to the rougher paper for a while.
+Using TDD cycles enables a programmer to quickly adapt their testing approach when necessary either because their code has become too general or to specific.  I relish the idea of developing an effective pattern of behavior that I utilize each time I approach a project that incorporates refactoring into my process rather than treating like an entirely separate task that may or may not get done..
+
